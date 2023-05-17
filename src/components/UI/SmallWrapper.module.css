@@ -1,0 +1,19 @@
+.SmallWrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 25rem;
+    min-width: 10rem;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    color: rgb(182, 186, 193);
+    background-color: rgb(59, 70, 88);
+    border-radius: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 10px;
+}

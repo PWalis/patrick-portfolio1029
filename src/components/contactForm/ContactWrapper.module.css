@@ -1,0 +1,8 @@
+.ContactWrapper {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 80rem;
+    background-color: rgb(59, 70, 88);
+}

@@ -1,0 +1,42 @@
+.input {
+    display: block;
+    border-color: transparent;
+    width: 99%;
+    height: 2rem;
+    flex-grow: 1;
+    margin: 2px 0 10px 0;
+
+}:focus{
+    outline: transparent;
+}
+
+.input-large {
+    border-color: transparent;
+    min-height: 6rem;
+    width: 99%;
+    resize: none;
+}:focus{
+    outline: transparent;
+}
+
+.label-input {
+    text-align: left;
+    margin: 0px 10px 10px 10px;
+}
+
+.input-button {
+    background-color: transparent;
+    width: 80px;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.button {
+    text-align: left;
+}
+
+.contact-title {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,15 @@
+.LargeWrapper {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 50rem;
+    max-width: 80%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    background-color: transparent;
+    border-radius: 45px;
+    padding-bottom: 1rem;
+    
+}

@@ -1,0 +1,107 @@
+.section-one {
+    display: grid;
+    min-height: 50rem;
+    justify-content: center;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 25% 25% 20% 30%;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    color: rgb(204, 207, 213);
+}
+.sticky {
+    position: sticky;
+    top: 70px;
+    margin-bottom: 20px;
+}
+
+.grid-area-12-14 {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    justify-content: start;
+    align-content: start;
+    top: 20px;
+} 
+
+.grid-area-12-14 h1 {
+    font-size: 4.5ch;
+    position: sticky;
+    top: 20px;
+}
+
+.grid-area-12-45 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: inline-block;
+    text-align: left;
+    justify-self: start;
+    align-self: start;
+}
+
+.grid-area-12-45 h2 {
+    display: inline;
+    font-size: 6ch;
+}
+
+.grid-area-23-24 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+.grid-area-23-45 {
+  display: flex;
+  justify-content: center;
+  align-content: end;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  /* margin-right: 15rem; */
+  margin-bottom: 1rem;
+  z-index: 1;
+}
+
+.in-and-out {
+    overflow: hidden;
+    animation: openclose 3s ease-out infinite ;
+}
+
+@keyframes openclose {
+    0% {
+      width: 0;
+    }
+    5% {
+      width: 0;
+    }
+    68% {
+      width: 285px;
+    }
+    80% {
+      width: 285px;
+    }
+    98% {
+      width: 0;
+    }
+    100% {
+      width: 0;
+    }
+  }
+
+  .react-logo {
+    padding-top: 5px;
+  }
+
+  .codeMan {
+    background-image: url("../../assets/grid_0.png");
+    aspect-ratio: 1;
+    height: 35rem;
+    background-size: contain;
+    box-shadow: 0 0 30px 30px rgb(27, 31, 44) inset;
+    border-radius: 230px;
+    transform: scaleX(-1);
+  }

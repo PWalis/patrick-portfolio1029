@@ -1,0 +1,15 @@
+.button {
+    background-color: transparent;
+    padding: 10px;
+    color: rgb(229, 231, 237);
+    transition: border-color;
+    border-color: transparent;
+    border-width: 1px;
+    transition-timing-function: ease-in-out;
+    font-size: 2ch;
+    font-weight: 600;
+}
+
+button:hover {
+    border-color: rgb(193, 194, 196);
+}
